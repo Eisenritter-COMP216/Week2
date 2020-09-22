@@ -1,8 +1,17 @@
+'''
+Author: Narendra
+Modified: George Zhou
+Last Modifiied: September 22, 2020
+
+Description:
+Modification to import and class caller as they are put in separate file now
+for optimized modularization and testing purposes
+'''
 from Week2Lab import Pet
 
 
 def main():
-    garfield = Pet.Pet('Garfield',3)
+    garfield = Pet.Pet('Garfield', 3)
     x = 1
     print(f'{x}:{garfield}')
     garfield.owner = 'Jon'

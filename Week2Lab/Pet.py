@@ -1,3 +1,9 @@
+'''
+Author: George Zhou
+Date: September 22, 2020
+
+This is the Pet (Separted from test harness for organization and modularization) Class
+'''
 class Pet:
     # default initializers
     name = ''
